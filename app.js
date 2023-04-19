@@ -5,6 +5,7 @@ function ok1() {
   if (b.style.backgroundColor = "white") {
     document.getElementById("l").style.color = "black"
     b.style.color = "black"
+    document.querySelector(".bxiz").style.backgroundColor= String(" white")
     document.querySelector(".b1").style.backgroundColor = String(" rgba(243, 243, 243, 0.5)")
     document.querySelector(".b2").style.backgroundColor = String(" rgba(243, 243, 243, 0.5)")
     document.querySelector(".b3").style.backgroundColor = String(" rgba(243, 243, 243, 0.5)")
@@ -47,6 +48,13 @@ function ok1() {
     document.querySelector(".rang26").style.color = "black"
     document.querySelector(".rang27").style.color = "black"
     document.querySelector(".rang28").style.color = "black"
+    document.querySelector(".rang29").style.color = "black"
+    document.querySelector(".rang30").style.color = "black"
+    document.querySelector(".rang31").style.color = "black"
+    document.querySelector(".rang32").style.color = "black"
+    document.querySelector(".rang33").style.color = "black"
+    document.querySelector(".rang34").style.color = "black"
+    document.querySelector(".rang35").style.color = "black"
 
   }
 
@@ -58,6 +66,7 @@ function ok2() {
   if (b.style.backgroundColor = "#111317") {
     document.getElementById("l").style.color = "white"
     b.style.color = "white"
+    document.querySelector(".bxiz").style.backgroundColor= String(" rgba(14, 16, 20, 0.9)")
     document.querySelector(".b1").style.backgroundColor = String("rgba(17, 19, 23, 0.5)")
     document.querySelector(".b2").style.backgroundColor = String("rgba(17, 19, 23, 0.5)")
     document.querySelector(".b3").style.backgroundColor = String("rgba(17, 19, 23, 0.5)")
@@ -107,6 +116,13 @@ function ok2() {
     document.querySelector(".rang26").style.color = "white"
     document.querySelector(".rang27").style.color = "white"
     document.querySelector(".rang28").style.color = "white"
+    document.querySelector(".rang29").style.color = "white"
+    document.querySelector(".rang30").style.color = "white"
+    document.querySelector(".rang31").style.color = "white"
+    document.querySelector(".rang32").style.color = "white"
+    document.querySelector(".rang33").style.color = "white"
+    document.querySelector(".rang34").style.color = "white"
+    document.querySelector(".rang35").style.color = "white"
   }
 
 }
