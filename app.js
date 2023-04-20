@@ -132,20 +132,15 @@ function m1() {
 
   document.querySelector(".yumaloq").style.left = ("0%")
   document.querySelector(".rang21").style.color = ("white")
-  // document.querySelector(".rang22").style.color = ("black")
-  // document.querySelector(".rang23").style.color = ("black")
-  // document.querySelector(".rang24").style.color = ("black")
-  // document.querySelector(".rang25").style.color = ("black")
+
 }
 
 function m2() {
 
 if (  document.querySelector(".yumaloq").style.left = ("20%")) {
-  // document.querySelector(".rang21").style.color = ("black")
+
   document.querySelector(".rang22").style.color = ("white")
-  // document.querySelector(".rang23").style.color = ("black")
-  // document.querySelector(".rang24").style.color = ("black")
-  // document.querySelector(".rang25").style.color = ("black")
+
 } 
 
 }
@@ -153,29 +148,22 @@ if (  document.querySelector(".yumaloq").style.left = ("20%")) {
 
 function m3() {
   document.querySelector(".yumaloq").style.left = ("40%")
-  // document.querySelector(".rang21").style.color = ("black")
-  // document.querySelector(".rang22").style.color = ("black")
+
   document.querySelector(".rang23").style.color = ("white")
-  // document.querySelector(".rang24").style.color = ("black")
-  // document.querySelector(".rang25").style.color = ("black")
+
 }
 
 
 function m4() {
   document.querySelector(".yumaloq").style.left = ("60%")
-  // document.querySelector(".rang21").style.color = ("black")
-  // document.querySelector(".rang22").style.color = ("black")
-  // document.querySelector(".rang23").style.color = ("black")
+
   document.querySelector(".rang24").style.color = ("white")
-  // document.querySelector(".rang25").style.color = ("black")
+
 }
 
 function m5() {
   document.querySelector(".yumaloq").style.left = ("77.1%")
-  // document.querySelector(".rang21").style.color = ("black")
-  // document.querySelector(".rang22").style.color = ("black")
-  // document.querySelector(".rang23").style.color = ("black")
-  // document.querySelector(".rang24").style.color = ("black")
+
 if (  document.querySelector(".rang25").style.color = ("white")) {
 
 }

@@ -1,26 +1,9 @@
-body p {
-  color: black;
 
+html{
+  scroll-behavior:smooth;
 }
 
-body {
-  /* background-image: url(./ac.png); */
-  width: 100%;
-  height: 100%;
-  z-index: 10;
 
-
-}
-
-#ac {
-  width: 100%;
-  height: 100%;
-  /* background-color: #0F1114; */
-}
-
-body {
-  height: 1000px;
-}
 
 * {
   margin: 0;
@@ -29,6 +12,17 @@ body {
 
 }
 
+
+body {
+  height: 1000px;
+}
+
+
+#ac {
+  width: 100%;
+  height: 100%;
+
+}
 .navbar {
   width: 100%;
   height: 80px;
@@ -166,7 +160,7 @@ td {
 }
 
 .katak {
-  width: 100%;
+  width: 1600px;
   /* margin-top: 48px; */
 
 }
@@ -188,6 +182,8 @@ td {
   font-size: 27px;
   margin: -40px 0 0 110px;
   font-family: ok;
+  width: 300px;
+  
 }
 
 #pm {
@@ -967,4 +963,29 @@ margin-left: 200px;
 margin-top: -100px;
   transform: rotate(19deg);
   
+}
+
+
+@media screen and (max-width:1450px){
+    .navbar{
+      width: 1600px;
+      
+    }
+
+    .katak{
+      position: relative;
+      width: 1600px;
+   
+    }
+
+    #pp{
+      width: 300px;
+      
+    }
+
+    .riga{
+      position: absolute;
+    left: 1200px;
+    }
+
 }
