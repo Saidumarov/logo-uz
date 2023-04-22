@@ -5,6 +5,8 @@ function ok1() {
   if (b.style.backgroundColor = "white") {
     document.getElementById("l").style.color = "black"
     b.style.color = "black"
+    document.getElementById("ok2").style.zIndex = ("1")
+    document.getElementById("ok1").style.zIndex = ("-1")
     document.querySelector(".blo1").style.backgroundColor = String(" rgba(255, 255, 255, 0.9)")
     document.querySelector(".blo2").style.backgroundColor = String("rgba(255, 255, 255, 0.9)")
     document.querySelector(".blo3").style.backgroundColor = String("rgba(255, 255, 255, 0.9)")
@@ -97,6 +99,8 @@ function ok2() {
   if (b.style.backgroundColor = "#111317") {
     document.getElementById("l").style.color = "white"
     b.style.color = "white"
+    document.getElementById("ok1").style.zIndex = ("1")
+    document.getElementById("ok2").style.zIndex = ("-1")
     document.querySelector(".blo1").style.backgroundColor = String(" rgba(14, 16, 20, 0.9)")
     document.querySelector(".blo2").style.backgroundColor = String(" rgba(14, 16, 20, 0.9)")
     document.querySelector(".blo3").style.backgroundColor = String(" rgba(14, 16, 20, 0.9)")
