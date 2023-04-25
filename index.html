@@ -8,6 +8,86 @@
     <title>Document</title>
     <link rel="stylesheet" href="./min.css">
     <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/fontawesome-free-6.3.0-web/css/all.css">
+    <link rel="stylesheet" href="./min1.css" />
+
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+     
+
+        .swiper {
+            width: 92%;
+            height: 100%;
+            margin-left: 75px;
+        }
+
+        .swiper-slide {
+
+            /* font-size: 18px; */
+
+            display: flex;
+            z-index: -5;
+            ;
+        }
+
+        @media (max-width: 760px) {
+            .swiper-button-next {
+                right: 20px;
+                /* transform: rotate(90deg); */
+            }
+
+            .swiper-button-prev {
+                left: 20px;
+                /* transform: rotate(90deg); */
+            }
+        }
+
+
+
+
+        /* blog */
+        html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+  
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      position: absolute;
+      width: 100%;
+      height: 450px;
+      bottom: 0;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    </style>
 </head>
 
 <body>
@@ -25,6 +105,7 @@
                 <i class="fa-solid fa-sun" onclick="ok1()"></i>
                 <i class="fa-sharp fa-solid fa-moon" onclick="ok2()"></i>
                 <div class="oy"></div>
+                <div class="oyy" onclick="ok3()"></div>
 
 
 
@@ -41,410 +122,100 @@
         </div>
     </div>
     <!-- mobilne -->
-   <div class="mnavbar">
-
-    <div class="mcon">
-        <div class="fxx">
-            <h2 id="mh2">Logo</h2>
-        <div class="wap">
-            
-            <div class="mmom">
-                <i class="fa-solid fa-sun" id="ok1" onclick="ok1()"></i>
-                <i class="fa-sharp fa-solid fa-moon" id="ok2" onclick="ok2()"></i>
-                <div class="moy"></div>
+    <div class="burmen">
+        <div class="xfx">
+            <h1 id="fx">Logo</h1>
+            <div class="xx" onclick="burx()">
+                <div class="dix1"></div>
+                <div class="dix2"></div>
             </div>
-        </div></div>
+           </div>
+           <div class="fxmenyu">
+            <h1>Biz haqimizda</h1>
+            <h1>Portfolio</h1>
+            <h1>Xizmatlarimiz</h1>
+            <h1>Buyurtma berish</h1>
+            <button id="fxbut"><h1 id="number">(99)0580714</h1></button>
+           </div>        
+    </div>
+    <div class="mnavbar">
+      
+        <div class="mcon">
 
+            <div class="burger" onclick="bur()">
+                <div   class="bur1"></div>
+                <div  class="bur2"></div>
+                <div  class="bur3"></div>
+            </div>
+           
+            <h2 id="mh2">Logo</h2>
+            <div class="wap">
+
+                <div class="mmom">
+                    <i class="fa-solid fa-sun" id="ok1" onclick="ok1()"></i>
+                    <i class="fa-sharp fa-solid fa-moon" id="ok2" onclick="ok2()"></i>
+                    <div class="moy"></div>
+                </div>
+            </div>
         </div>
-   </div>
+
+    </div>
+    </div>
     <!-- /mobilni -->
 
 
     <div class="top">
         <div class="riga"></div>
+        <div class="riga1"></div>
         <div class="topp"></div>
         <div class="tep"></div>
 
 
         <div class="katak">
-            <table>
-                <tr id="tr">
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-
-                    <!-- </td> -->
-
-                </tr>
-                <tr id="tr">
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-                    <!-- </td> -->
-                <tr id="tr" >
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-                    <!-- </td> -->
-
-                </tr>
-                <tr id="tr">
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-                    <!-- </td> -->
-
-                </tr>
-                <tr id="tr">
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-                    <!-- </td> -->
-
-                </tr>
-                <tr id="tr">
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-                    <!-- </td> -->
-
-                </tr>
-                <tr id="tr">
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-                    <!-- </td> -->
-
-                </tr>
-
-                </tr>
-                <tr id="tr">
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-                    <!-- </td> -->
-
-                </tr>
-                <tr id="tr">
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-
-                    <!-- </td> -->
-
-                </tr>
-                <tr id="tr">
-                    <!-- <td id="td"> -->
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-
-
-                    <!-- </td> -->
-
-                </tr>
-                <div class="mcon">
+         
                     <div class="mkatak">
-                        <!-- </td> -->
-                        <tr id="mtd" >
-                         <!-- <td id="td"> -->
-                         <td></td>
-                         <td></td>
-                         <td></td>
-                         
-                         
-                   
-                         <!-- </td> -->
-     
-                     </tr> 
-                     <tr   id="mtd">
-                        <!-- <td id="td"> -->
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        
-                        
-                    
-                        <!-- </td> -->
-    
-                    </tr> 
-                    <tr   id="mtd">
-                        <!-- <td id="td"> -->
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        
-                        
-                  
-    
-                        <!-- </td> -->
-    
-                    </tr> 
-                    <tr  id="mtd" >
-                        <!-- <td id="td"> -->
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        
-                        
-                
-    
-                        <!-- </td> -->
-    
-                    </tr> 
-                    <tr   id="mtd">
-                        <!-- <td id="td"> -->
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        
-                        
-                 
-    
-                        <!-- </td> -->
-    
-                    </tr> 
-                    <tr  id="mtd" >
-                        <!-- <td id="td"> -->
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        
-                        
-               
-    
-                        <!-- </td> -->
-    
-                    </tr> 
-                    <tr  id="mtd" >
-                        <!-- <td id="td"> -->
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        
-                        
-               
-    
-                        <!-- </td> -->
-    
-                    </tr> 
-                    <tr  id="mtd" >
-                        <!-- <td id="td"> -->
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        
-                        
-                   
-    
-                        <!-- </td> -->
-    
-                    </tr> 
-                   
-             </div>
+                          
+             
                 </div>
-            </table>
+           
         </div>
-       
+
     </div>
     <div class="contenrr">
 
-        <h1 class="rang6">Biz veb-saytlar,  ilovalarni yaratamiz   va ishlab chiqamiz</h1>
+        <h1 class="rang6">Biz veb-saytlar, ilovalarni yaratamiz va ishlab chiqamiz</h1>
         <p class="rang7">Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do <br> eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam.</p>
 
         <!-- dumaloq -->
-     <div class="mcon">   <div class="ura">
-        <div class="dom"></div>
-     <div class="domm"> <h2>Портфолио </h2></div>
-     <h2 class="rangh">Пор<span>тфолио</span> </h2>
-     </div></div>
+        <div class="ura">
+            <div class="dom">
+              
+            </div>
+            <div class="domm">
+                <h2 id="dom">Портфолио </h2>
+            </div>
+            <h2 class="rangh">Пор<span>тфолио</span> </h2>
+        </div>
     </div>
 
-
+    <!-- kompanya -->
     <div class="kompanya">
 
         <div class="tex">
             <h1 class="rang8">Kompaniya haqida</h1>
             <p class="rang9">Agentlik-bu mijozlarga o'z bizneslari uchun sifatli
-                va innovatsion echimlarni <br> taqdim etish maqsadida tashkil
-                etilgan veb-agentlik. Bizning jamoamiz mijozlarga <br> moslashtirilgan va
-                sifatli mahsulotni taklif qilish uchun yaqin hamkorlikda <br> ishlaydigan
-                tajribali veb-dizayn, ishlab chiqish va marketing mutaxassislaridan <br> iborat. <br> <br> <br>
-
-                Biz veb-dizayn, veb-sayt va mobil ilovalarni ishlab chiqish, SEO optimallashtirish, <br>
-                kontent yaratish va reklama kampaniyalarini o'z ichiga olgan keng ko'lamli <br> xizmatlarni
-                taklif etamiz. Biz eng yangi texnologiyalar va innovatsion usullardan <br> foydalangan holda
-                brendni rivojlantirish va sotishni ko'paytirish bilan <br> shug'ullanamiz.</p>
+                va innovatsion echimlarni taqdim etish maqsadida tashkil
+                etilgan veb-agentlik. Bizning jamoamiz mijozlarga moslashtirilgan va
+                sifatli mahsulotni taklif qilish uchun yaqin hamkorlikda ishlaydigan
+                tajribali veb-dizayn, ishlab chiqish va marketing mutaxassislaridan iborat.
+                <br><br><br>
+                Biz veb-dizayn, veb-sayt va mobil ilovalarni ishlab chiqish, SEO optimallashtirish,
+                kontent yaratish va reklama kampaniyalarini o'z ichiga olgan keng ko'lamli xizmatlarni
+                taklif etamiz. Biz eng yangi texnologiyalar va innovatsion usullardan foydalangan holda
+                brendni rivojlantirish va sotishni ko'paytirish bilan shug'ullanamiz.
+            </p>
         </div>
 
         <div class="tex2">
@@ -466,10 +237,14 @@
             </div>
 
         </div>
-        <div class="topbl">
+        <div class="topbl"> -
 
         </div>
     </div>
+    <!-- kompanya -->
+
+
+    <!-- bix haqimizda -->
 
     <div class="contenrr">
         <div class="biz">
@@ -522,6 +297,9 @@
         </div>
 
     </div>
+    <!-- biz haqimizda -->
+
+    <!-- loyihalar -->
     <div class="contenrr">
         <div class="loyiha">
             <h1 id="ba">Bajargan loyihalarimiz</h1>
@@ -530,8 +308,16 @@
                 <p class="rang22" id="men" onclick="m2()"> Veb sayt</p>
                 <p class="rang23" id="men" onclick="m3()">Veb dizayn</p>
                 <p class="rang24" id="men" onclick="m4()">SMM</p>
-                <p class="rang25" id="men" onclick="m5()">Mobil ilova</p>
+                <p class="rang25" id="men" onclick="m5()" style="padding-left: 90px;">Mobil ilova</p>   
                 <div class="yumaloq"></div>
+            </div>
+            <div class="menyu1">
+                <p class="rang21" id="men" onclick="m11()" style="color: white; ">Barchasi</p>
+                <p class="rang22" id="men" onclick="m21()" style="color: white; "> Veb sayt</p>
+                <p class="rang23" id="men" onclick="m31()" style="color: white; ">Veb dizayn</p>
+                <p class="rang24" id="men" onclick="m41()" style="color: white; "> SMM</p>
+                <p class="rang25" id="men" onclick="m51()" style="color: white;  padding-left: 90px;" >Mobil ilova</p>
+                <div class="yumaloq1"></div>
             </div>
             <div class="imge">
                 <div class="imgg">
@@ -644,270 +430,573 @@
             </div>
 
 
-            <div class="ish"></div>
+            <div class="ish">
+                <h2 id="iss"> Barchasini ko’rish</h2>
+            </div>
             <h2 id="ish">Barc <span id="is">hasini ko’rish</span></h2>
 
         </div>
+    </div>
+    <!-- loyihalar -->
 
-        <div class="contenrr">
-            <div class="xizmat">
-                <div class="bxiz">
-                    <h1 id="iia">Bizning xizmatlar</h1>
-                    <div class="bx1">
-                        <div class="bd1" style="background: rgba(84, 84, 212, 0.1);">
+    <!-- xizmarlar -->
 
-                        </div>
-                        <div class="btex1">
-                            <h1 id="veb">Veb saytlar</h1>
-                            <p class="rang31">Bizdan eng yaxshi va eng zo'r <br> sifatga ega platforma yarating.</p>
-                        </div>
+
+    <div class="contenrr">
+        <div class="xizmat">
+            <div class="bxiz">
+                <h1 id="iia">Bizning xizmatlar</h1>
+                <div class="bx1">
+                    <div class="bd1" style="background: rgba(84, 84, 212, 0.1);">
+
                     </div>
-
-                    <div class="bx2">
-                        <div class="bd2" style="background: rgba(240, 64, 55, 0.1);">
-
-                        </div>
-                        <div class="btex2">
-                            <h1 id="veb">UI/UX Dizayn</h1>
-                            <p class="rang26">Biz UI/UX dizayn xizmatlarini <br> taqdim etamiz </p>
-                        </div>
-                    </div>
-
-                    <div class="bx3">
-                        <div class="bd3" style="background: rgba(254, 220, 90, 0.1);">
-
-                        </div>
-                        <div class="btex3">
-                            <h1 id="veb">Mobil ilovalar</h1>
-                            <p class="rang27">Biz eng yaxshi dizaynerlar <br> xizmatlarini taqdim etamiz</p>
-                        </div>
-                    </div>
-
-                    <div class="bx4">
-                        <div class="bd4" style="background: rgba(254, 220, 90, 0.1);">
-
-                        </div>
-                        <div class="btex4">
-                            <h1 id="veb">SMM</h1>
-                            <p class="rang28">Bizdan eng yaxshi va eng zo'r <br> sifatga ega platforma yarating.</p>
-                        </div>
-                    </div>
-
-                    <div class="bx5">
-                        <div class="bd5" style="
-                    background: rgba(84, 84, 212, 0.1);">
-
-                        </div>
-                        <div class="btex5">
-                            <h1 id="veb">Grafik dizayn</h1>
-                            <p class="rang29">Biz fotografiya xizmatlarini <br>
-                                taqdim etamiz </p>
-                        </div>
-                    </div>
-
-                    <div class="bx6">
-                        <div class="bd6" style="
-                    background: rgba(240, 64, 55, 0.1);">
-
-                        </div>
-                        <div class="btex6">
-                            <h1 id="veb">Motion dizayn</h1>
-                            <p class="rang30">Bizdan eng yaxshi va eng zo'r <br> sifatga ega platforma yarating.</p>
-                        </div>
+                    <div class="btex1">
+                        <h1 id="veb">Veb saytlar</h1>
+                        <p class="rang31">Bizdan eng yaxshi va eng zo'r <br> sifatga ega platforma yarating.</p>
                     </div>
                 </div>
-                <div class="xmm">
+
+                <div class="bx2">
+                    <div class="bd2" style="background: rgba(240, 64, 55, 0.1);">
+
+                    </div>
+                    <div class="btex2">
+                        <h1 id="veb">UI/UX Dizayn</h1>
+                        <p class="rang26">Biz UI/UX dizayn xizmatlarini <br> taqdim etamiz </p>
+                    </div>
+                </div>
+
+                <div class="bx3">
+                    <div class="bd3" style="background: rgba(254, 220, 90, 0.1);">
+
+                    </div>
+                    <div class="btex3">
+                        <h1 id="veb">Mobil ilovalar</h1>
+                        <p class="rang27">Biz eng yaxshi dizaynerlar <br> xizmatlarini taqdim etamiz</p>
+                    </div>
+                </div>
+
+                <div class="bx4">
+                    <div class="bd4" style="background: rgba(254, 220, 90, 0.1);">
+
+                    </div>
+                    <div class="btex4">
+                        <h1 id="veb">SMM</h1>
+                        <p class="rang28">Bizdan eng yaxshi va eng zo'r <br> sifatga ega platforma yarating.</p>
+                    </div>
+                </div>
+
+                <div class="bx5">
+                    <div class="bd5" style="
+                background: rgba(84, 84, 212, 0.1);">
+
+                    </div>
+                    <div class="btex5">
+                        <h1 id="veb">Grafik dizayn</h1>
+                        <p class="rang29">Biz fotografiya xizmatlarini <br>
+                            taqdim etamiz </p>
+                    </div>
+                </div>
+
+                <div class="bx6">
+                    <div class="bd6" style="
+                background: rgba(240, 64, 55, 0.1);">
+
+                    </div>
+                    <div class="btex6">
+                        <h1 id="veb">Motion dizayn</h1>
+                        <p class="rang30">Bizdan eng yaxshi va eng zo'r <br> sifatga ega platforma yarating.</p>
+                    </div>
+                </div>
+                <div class="rangbx1"></div>
+                <div class="rangbx"></div>
+            </div>
+            <div class="xmm">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- xizmarlar -->
+
+    <!-- blog -->
+
+    <div class="contenrr">
+        <div class="bizblog">
+            <div class="bimg">
+                <h2 id="bllo">
+                    Blog yangiliklarimiz
+                </h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blo1" >
+                                <div class="bimg">
+                                    <img src="./img/bb1.png" alt="">
+                                </div>
+                                <h2 id="qq">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                                <p id="pqq" class="rang32">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA»,
+                                    ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+                                <p id="qpas"><i class="fa-regular fa-calendar"></i>
+                                <h2 id="data1">14:45</h2>
+                                <h2 id="data">22/02/23</h2>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blo2" >
+                                <div class="bimg2" >
+                                    <img src="./img/bb2.jpg" alt="">
+                                </div>
+                                <h2 id="qq">«Najot Ta'lim» logosi haqida nimalarni bilasiz?</h2>
+                                <p id="pqq" style="margin-top: 10px;" class="rang33">«Najot Ta'lim» logosi Abstrac t
+                                    logo mark
+                                    turdagi logo hisoblanadi.
+                                    Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.</p>
+                                <p id="qpas"><i class="fa-regular fa-calendar"></i>
+                                <h2 id="data1">14:45</h2>
+                                <h2 id="data">22/02/23</h2>
+                                </p>
+
+
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blo3">
+                                <div class="bimg3">
+                                    <img src="./img/bb3.jpg" alt="">
+                                </div>
+                                <h2 id="qq">🙌 «TechJobs» kompaniyasi Java dasturchilarni maxsus «Deep interview»ga
+                                    taklif
+                                    qiladi!</h2>
+                                <p id="pqq" style="margin-top: 35px;" class="rang34">Intervyuda sizning oʻz sohangizdagi
+                                    boʻshliqlaringiz, kamchiliklaringiz aniqlanib...</p>
+                                <p id="qpas"><i class="fa-regular fa-calendar"></i>
+                                <h2 id="data1">14:45</h2>
+                                <h2 id="data">22/02/23</h2>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blo3" id="blo1">
+                                <div class="bimg3">
+                                    <img src="./img/bb3.jpg" alt="">
+                                </div>
+                                <h2 id="qq">🙌 «TechJobs» kompaniyasi Java dasturchilarni maxsus «Deep interview»ga
+                                    taklif
+                                    qiladi!</h2>
+                                <p id="pqq" style="margin-top: 35px;" class="rang35">Intervyuda sizning oʻz sohangizdagi
+                                    boʻshliqlaringiz, kamchiliklaringiz aniqlanib...</p>
+                                <p id="qpas"><i class="fa-regular fa-calendar"></i>
+                                <h2 id="data1">14:45</h2>
+                                <h2 id="data">22/02/23</h2>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blo2"id="blo2">
+                                <div class="bimg2">
+                                    <img src="./img/bb2.jpg" alt="">
+                                </div>
+                                <h2 id="qq">«Najot Ta'lim» logosi haqida nimalarni bilasiz?</h2>
+                                <p id="pqq" style="margin-top: 10px;" class="rang36">«Najot Ta'lim» logosi Abstrac t
+                                    logo mark
+                                    turdagi logo hisoblanadi.
+                                    Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.</p>
+                                <p id="qpas"><i class="fa-regular fa-calendar"></i>
+                                <h2 id="data1">14:45</h2>
+                                <h2 id="data">22/02/23</h2>
+                                </p>
+
+
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blo2"  id="blo3">
+                                <div class="bimg2">
+                                    <img src="./img/bb2.jpg" alt="">
+                                </div>
+                                <h2 id="qq">«Najot Ta'lim» logosi haqida nimalarni bilasiz?</h2>
+                                <p id="pqq" style="margin-top: 10px;" class="rang37">«Najot Ta'lim» logosi Abstrac t
+                                    logo mark
+                                    turdagi logo hisoblanadi.
+                                    Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.</p>
+                                <p id="qpas"><i class="fa-regular fa-calendar"></i>
+                                <h2 id="data1">14:45</h2>
+                                <h2 id="data">22/02/23</h2>
+                                </p>
+
+
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="blo2" id="blo4">
+                                <div class="bimg2">
+                                    <img src="./img/bb2.jpg" alt="">
+                                </div>
+                                <h2 id="qq">«Najot Ta'lim» logosi haqida nimalarni bilasiz?</h2>
+                                <p id="pqq" style="margin-top: 10px;" class="rang38">«Najot Ta'lim» logosi Abstrac t
+                                    logo mark
+                                    turdagi logo hisoblanadi.
+                                    Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.</p>
+                                <p id="qpas"><i class="fa-regular fa-calendar"></i>
+                                <h2 id="data1">14:45</h2>
+                                <h2 id="data">22/02/23</h2>
+                                </p>
+
+
+
+                            </div>
+                        </div>
+                        <!-- <div class="swiper-slide">Resize me!</div>
+                        <div class="swiper-slide">Resize me!</div>  
+                        <div class="swiper-slide">Resize me!</div> -->
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next" id="left"></div>
+                <div class="swiper-button-prev" id="rig"></div>
+                <div class="ran"></div>
+                <div class="ran1"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- mblog -->
+
+<div class="mblog">
+    <h2 id="mb">
+        Blog yangiliklarimiz
+    </h2>
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2000" autoplay-disable-on-interaction="false">
+    <swiper-slide>
+      
+        <div class="blo11" id="blo8">
+        <div class="bimg">
+            <img src="./img/bb1.png" alt="" id="bimg">
+        </div>
+        <h2 id="qq">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+        <p id="pqq" class="rang39">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA»,
+            ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+        <p id="qpas"><i class="fa-regular fa-calendar"></i>
+        <h2 id="data1">14:45</h2>
+        <h2 id="data">22/02/23</h2>
+        </p>
+    </div>
+</swiper-slide>
+    <swiper-slide>  
+         <div class="blo11" id="blo9">
+        <div class="bimg">
+            <img src="./img/bb1.png" alt="" id="bimg">
+        </div>
+        <h2 id="qq">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+        <p id="pqq" class="rang40">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA»,
+            ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+        <p id="qpas"><i class="fa-regular fa-calendar"></i>
+        <h2 id="data1">14:45</h2>
+        <h2 id="data">22/02/23</h2>
+        </p>
+    </div></swiper-slide>
+    <swiper-slide> 
+          <div class="blo12" id="blo10">
+        <div class="bimg">
+            <img src="./img/bb1.png" alt="" id="bimg">
+        </div>
+        <h2 id="qq">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+        <p id="pqq" class="rang41">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA»,
+            ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+        <p id="qpas"><i class="fa-regular fa-calendar"></i>
+        <h2 id="data1">14:45</h2>
+        <h2 id="data">22/02/23</h2>
+        </p>
+    </div></swiper-slide>
+    <swiper-slide>  
+         <div class="blo13" id="blo11">
+        <div class="bimg">
+            <img src="./img/bb1.png" alt="" id="bimg">
+        </div>
+        <h2 id="qq">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+        <p id="pqq" class="rang42">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA»,
+            ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+        <p id="qpas"><i class="fa-regular fa-calendar"></i>
+        <h2 id="data1">14:45</h2>
+        <h2 id="data">22/02/23</h2>
+        </p>
+    </div></swiper-slide>
+    <swiper-slide> 
+          <div class="blo14" id="blo12">
+        <div class="bimg">
+            <img src="./img/bb1.png" alt="" id="bimg">
+        </div>
+        <h2 id="qq">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+        <p id="pqq" class="rang43">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA»,
+            ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+        <p id="qpas"><i class="fa-regular fa-calendar"></i>
+        <h2 id="data1">14:45</h2>
+        <h2 id="data">22/02/23</h2>
+        </p>
+    </div></swiper-slide>
+    <swiper-slide>   
+        <div class="blo15" id="blo13">
+        <div class="bimg">
+            <img src="./img/bb1.png" alt="" id="bimg">
+        </div>
+        <h2 id="qq">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+        <p id="pqq" class="rang44">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA»,
+            ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+        <p id="qpas"><i class="fa-regular fa-calendar"></i>
+        <h2 id="data1">14:45</h2>
+        <h2 id="data">22/02/23</h2>
+        </p>
+    </div></swiper-slide>
+    <!-- <swiper-slide>Slide 7</swiper-slide>
+    <swiper-slide>Slide 8</swiper-slide>
+    <swiper-slide>Slide 9</swiper-slide> -->
+  </swiper-container>
+</div>
+    <!-- mblog -->
+
+    <div class="contenrr">
+        <div class="bjamo">
+            <h1 id="bj">Bizning jamoa</h1>
+            <div class="bj1">
+                <img src="./img/bj6.jpg" alt="">
+                <div class="fro" id="fro">
+                    <h2 id="tf">Saidalixon Sobirov</h2>
+                    <div class="tf"></div>
+                    <h2 id="tff">Frontend dasturchi</h2>
+                </div>
+            </div>
+
+            <div class="bj2">
+                <img src="./img/bj6.jpg" alt="">
+                <div class="fro" id="fro1">
+
+                    <h2 id="tf">Saidalixon Sobirov</h2>
+                    <div class="tf"></div>
+                    <h2 id="tff">Frontend dasturchi</h2>
+                </div>
+            </div>
+
+            <div class="bj3">
+                <img src="./img/bj6.jpg" alt="">
+                <div class="fro" id="fro2">
+                    <h2 id="tf">Saidalixon Sobirov</h2>
+                    <div class="tf"></div>
+                    <h2 id="tff">Frontend dasturchi</h2>
+                </div>
+            </div>
+
+            <div class="bj4">
+                <img src="./img/bj6.jpg" alt="">
+                <div class="fro" id="fro3">
+                    <h2 id="tf">Saidalixon Sobirov</h2>
+                    <div class="tf"></div>
+                    <h2 id="tff">Frontend dasturchi</h2>
+                </div>
+            </div>
+            <button id="bu1" onclick="le1()"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="buu1"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- mbjamo -->
+    <div class="mjamo">
+        <h2 id="mbb">
+            Bizning jamoa
+        </h2>
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+        centered-slides="true" autoplay-delay="2000" autoplay-disable-on-interaction="false">
+        <swiper-slide>
+          
+            <div class="bj15">
+                <img src="./img/bj6.jpg" alt="">
+                <div class="fro" id="fro8">
+                    <h2 id="tf">Saidalixon Sobirov</h2>
+                    <div class="tf"></div>
+                    <h2 id="tff">Frontend dasturchi</h2>
+                </div>
+            </div>
+    </swiper-slide>
+        <swiper-slide>  
+            <div class="bj16">
+                <img src="./img/bj6.jpg" alt="">
+                <div class="fro" id="fro6">
+                    <h2 id="tf">Saidalixon Sobirov</h2>
+                    <div class="tf"></div>
+                    <h2 id="tff">Frontend dasturchi</h2>
+                </div>
+            </div>
+        </swiper-slide>
+ 
+        <swiper-slide>  
+            <div class="bj12">
+                <img src="./img/bj6.jpg" alt="">
+                <div class="fro" id="fro4">
+                    <h2 id="tf">Saidalixon Sobirov</h2>
+                    <div class="tf"></div>
+                    <h2 id="tff">Frontend dasturchi</h2>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide> 
+            <div class="bj13">
+                <img src="./img/bj6.jpg" alt="">
+                <div class="fro" id="fro7">
+                    <h2 id="tf">Saidalixon Sobirov</h2>
+                    <div class="tf"></div>
+                    <h2 id="tff">Frontend dasturchi</h2>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>   
+            <div class="bj14">
+                <img src="./img/bj6.jpg" alt="">
+                <div class="fro" id="fro5">
+                    <h2 id="tf">Saidalixon Sobirov</h2>
+                    <div class="tf"></div>
+                    <h2 id="tff">Frontend dasturchi</h2>
+                </div>
+            </div>
+        </swiper-slide>
+        <!-- <swiper-slide>Slide 7</swiper-slide>
+        <swiper-slide>Slide 8</swiper-slide>
+        <swiper-slide>Slide 9</swiper-slide> -->
+      </swiper-container>
+    </div>
+    <!-- mbjano -->
+
+    <!-- logo -->
+    <div class="contenrr">
+        <div class="choy">
+            <div class="kchoy">
+                <div class="choy1">
+                    <h1 id="cc">Sizni bir finjon qahva ustida loyihangizni batafsil muhokama qilishga mamnuniyat ila
+                        taklif qilamiz.</h1>
+                    <input type="name" id="name" class="baa" placeholder="Ismingiz">
+                    <input type="number" id="name1" placeholder="Telefon raqamingiz">
+                    <input type="text" id="name2" placeholder="G'oyangiz xaqida qisqacha (Muhim emas)">
+                    <h2 id="cc1">Qanday xizmatlardan foydalanishni xoxlaysiz?</h2>
+
+                    <div class="chk">
+                        <p> <input type="checkbox" id="chk">Backend</p> <br>
+                        <p> <input type="checkbox" id="chk">CRM ishlab chiqish</p><br>
+                        <p class="in"> <input type="checkbox" id="chk"> Internet magazin <span id="ch2">ishlab</span>
+                            chiqish</p><br>
+                        <p> <input type="checkbox" id="chk">Logotip va Brandbook</p><br>
+                        <p> <input type="checkbox" id="chk">Portal ishlab chiqish </p><br>
+                        <p><input type="checkbox" id="chk">Veb dizayn</p><br>
+                        <p style="width: 180px;"><input type="checkbox" id="chk">Mobilograf</p><br>
+
+
+                    </div>
+
+                    <div class="chk1">
+                        <p> <input type="checkbox" id="chk">Frontend</p> <br>
+                        <p> <input type="checkbox" id="chk">Grafik dizayn</p><br>
+                        <p> <input type="checkbox" id="chk">Motion dizayn</p><br>
+                        <p class="in"> <input type="checkbox" id="chk">Mobil ilova
+                            ishlab <span id="ch3" id="chk">chiqish</span></p><br>
+                        <p> <input type="checkbox" id="chk">Veb sayt ishlab <span id="ch1">chiqish</span> </p><br>
+                        <p><input type="checkbox" id="chk">SMM dizayn</p><br>
+
+
+
+                    </div>
+
+
+                </div>
+                <div class="choy2">
+                    <h1 id="oxir">NIMANI MA'QUL KO'RASIZ?</h1>
+                    <div class="imgch">
+                        <img src="./img/kof.png" alt="">
+                        <h2 id="ko">Achchiq kofe</h2>
+                    </div>
+                    <div class="imgch1">
+                        <img src="./img/sut.png" alt="">
+                        <h2 id="ko">Sutli kofe</h2>
+                    </div>
+                    <div class="imgch2">
+                        <img src="./img/suv.png" alt="" style="border-radius: 50%
+                        ;">
+                        <h2 id="ko">Suv</h2>
+                    </div>
+                    <div class="imgch3">
+                        <img src="./img/choy.png" alt="">
+                        <h2 id="ko">Choy</h2>
+                    </div>
+                    <div class="chdom" id="chh"><h2>Mijoz bo’lish</h2></div>
+                </div>
+              <div class="chdom" id="chhh"></div>
+                <div class="choy3">
+                    <h2>Mijo <span id="mmz">z bo’lish</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenrr">
+        <div class="logo">
+            <div class="log">
+            <div class="log1">
+                <h1 id="loo">LOGO</h1>
+                <h2 id="manzil">Manzil: Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy. <br>
+                    Mo’ljal: “ASIA AUTO” avtosalon ichki qismi</h2>
+                <div class="nam">
+                    <h2 id="nam" class="na"><i class="fa-solid fa-phone"></i> +998 99 999 99 99</h2>
+                    <h2 id="nam"> <i class="fa-solid fa-phone"></i>+998 99 999 99 99</h2>
+                </div>
+                <div class="ijti">
+                    <h2> <i class="fab fa-telegram"></i></h2>
+                    <h2> <i class="fab fa-instagram"></i></h2>
+                    <h2><i class="fa-brands fa-facebook"></i></h2>
 
                 </div>
             </div>
         </div>
+    </div>
+    </div>
 
-        <div class="contenrr">
-            <div class="bizblog">
-                <div class="bimg">
-                    <h2 id="bllo">
-                        Blog yangiliklarimiz
-                    </h2>
-                    <div class="blo1" id="blo">
-                        <div class="bimg">
-                            <img src="./img/bb1.png" alt="">
-                        </div>
-                        <h2 id="qq">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
-                        <p id="pqq" class="rang32">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA»,
-                            ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
-                        <p id="qpas"><i class="fa-regular fa-calendar"></i>
-                        <h2 id="data1">14:45</h2>
-                        <h2 id="data">22/02/23</h2>
-                        </p>
-                    </div>
-                    <div class="blo2">
-                        <div class="bimg2">
-                            <img src="./img/bb2.jpg" alt="">
-                        </div>
-                        <h2 id="qq">«Najot Ta'lim» logosi haqida nimalarni bilasiz?</h2>
-                        <p id="pqq" style="margin-top: 10px;" class="rang33">«Najot Ta'lim» logosi Abstrac t logo mark
-                            turdagi logo hisoblanadi.
-                            Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.</p>
-                        <p id="qpas"><i class="fa-regular fa-calendar"></i>
-                        <h2 id="data1">14:45</h2>
-                        <h2 id="data">22/02/23</h2>
-                        </p>
+    <!-- blog -->
 
+    <!-- mlogo -->
 
-
-                    </div>
-                    <div class="blo3">
-                        <div class="bimg3">
-                            <img src="./img/bb3.jpg" alt="">
-                        </div>
-                        <h2 id="qq">🙌 «TechJobs» kompaniyasi Java dasturchilarni maxsus «Deep interview»ga taklif
-                            qiladi!</h2>
-                        <p id="pqq" style="margin-top: 35px;" class="rang34">Intervyuda sizning oʻz sohangizdagi
-                            boʻshliqlaringiz, kamchiliklaringiz aniqlanib...</p>
-                        <p id="qpas"><i class="fa-regular fa-calendar"></i>
-                        <h2 id="data1">14:45</h2>
-                        <h2 id="data">22/02/23</h2>
-                        </p>
-
-                    </div>
-                    <div class="ran"></div>
-                    <div class="ran1"></div>
-                    <button id="bu" onclick="le1()"><i class="fa-solid fa-chevron-left"></i></button>
-                    <button id="buu"><i class="fa-solid fa-chevron-right"></i></button>
-                </div>
+    <div class="mlogo">
+        <h1 id="loo1">LOGO</h1>
+        <h2 id="manzil1">Manzil: Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy. <br>
+            Mo’ljal: “ASIA AUTO” avtosalon ichki qismi</h2>
+            <div class="nam1">
+                <h2 id="nam1" ><i class="fa-solid fa-phone"></i> +998 99 999 99 99</h2>
+                <h2 id="nam1"> <i class="fa-solid fa-phone"></i>+998 99 999 99 99</h2>
             </div>
-        </div>
-
-        <div class="contenrr">
-            <div class="bjamo">
-                <h1 id="bj">Bizning jamoa</h1>
-                <div class="bj1">
-                    <img src="./img/bj6.jpg" alt="">
-                    <div class="fro" id="fro">
-                        <h2 id="tf">Saidalixon Sobirov</h2>
-                        <div class="tf"></div>
-                        <h2 id="tff">Frontend dasturchi</h2>
-                    </div>
-                </div>
-
-                <div class="bj2">
-                    <img src="./img/bj6.jpg" alt="">
-                    <div class="fro" id="fro1">
-
-                        <h2 id="tf">Saidalixon Sobirov</h2>
-                        <div class="tf"></div>
-                        <h2 id="tff">Frontend dasturchi</h2>
-                    </div>
-                </div>
-
-                <div class="bj3">
-                    <img src="./img/bj6.jpg" alt="">
-                    <div class="fro" id="fro2">
-                        <h2 id="tf">Saidalixon Sobirov</h2>
-                        <div class="tf"></div>
-                        <h2 id="tff">Frontend dasturchi</h2>
-                    </div>
-                </div>
-
-                <div class="bj4">
-                    <img src="./img/bj6.jpg" alt="">
-                    <div class="fro" id="fro3">
-                        <h2 id="tf">Saidalixon Sobirov</h2>
-                        <div class="tf"></div>
-                        <h2 id="tff">Frontend dasturchi</h2>
-                    </div>
-                </div>
-                <button id="bu1" onclick="le1()"><i class="fa-solid fa-chevron-left"></i></button>
-                <button id="buu1"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="ijti1">
+                <h2> <i class="fab fa-telegram"></i></h2>
+                <h2> <i class="fab fa-instagram"></i></h2>
+                <h2><i class="fa-brands fa-facebook"></i></h2>
+    
             </div>
-        </div>
+    </div>
 
-        <div class="contenrr">
-            <div class="choy">
-                <div class="kchoy">
-                    <div class="choy1">
-                        <h1 id="cc">Sizni bir finjon qahva ustida loyihangizni batafsil muhokama qilishga mamnuniyat ila
-                            taklif qilamiz.</h1>
-                        <input type="name" id="name" class="baa" placeholder="Ismingiz">
-                        <input type="name" id="name1" placeholder="Telefon raqamingiz">
-                        <input type="name" id="name2" placeholder="G'oyangiz xaqida qisqacha (Muhim emas)">
-                        <h2 id="cc1">Qanday xizmatlardan foydalanishni xoxlaysiz?</h2>
-
-                        <div class="chk">
-                            <p> <input type="checkbox" id="chk">Backend</p> <br>
-                            <p> <input type="checkbox"  id="chk">CRM ishlab chiqish</p><br>
-                            <p> <input type="checkbox"  id="chk">Internet magazin <span id="ch2">ishlab</span> chiqish</p><br>
-                            <p> <input type="checkbox"  id="chk">Logotip va Brandbook</p><br>
-                            <p> <input type="checkbox"  id="chk">Portal ishlab chiqish </p><br>
-                            <p><input type="checkbox"  id="chk">Veb dizayn</p><br>
-                            <p><input type="checkbox"  id="chk">Mobilograf</p><br>
+    <!-- mlogo -->
 
 
-                        </div>
+    <script src="./min1.js"></script>
 
-                        <div class="chk1">
-                            <p> <input type="checkbox"  id="chk">Frontend</p> <br>
-                            <p> <input type="checkbox"  id="chk">Grafik dizayn</p><br>
-                            <p> <input type="checkbox"  id="chk">Motion dizayn</p><br>
-                            <p> <input type="checkbox"  id="chk">Mobil ilova
-                                ishlab <span id="ch3"  id="chk">chiqish</span></p><br>
-                            <p> <input type="checkbox"  id="chk">Veb sayt ishlab <span id="ch1">chiqish</span> </p><br>
-                            <p><input type="checkbox"  id="chk">SMM dizayn</p><br>
+    <script src="./min2.js"></script>
+
+   <script src="./min3.js"></script>
 
 
+    <script src="./app.js"></script>
 
-                        </div>
-
-                    
-                    </div>
-                    <div class="choy2">
-                        <h1 id="oxir">NIMANI MA'QUL KO'RASIZ?</h1>
-                        <div class="imgch">
-                            <img src="./img/kof.png" alt="">
-                            <h2 id="ko">Achchiq kofe</h2>
-                        </div>
-                        <div class="imgch1">
-                            <img src="./img/sut.png" alt="" > 
-                            <h2 id="ko">Sutli kofe</h2>
-                        </div>
-                        <div class="imgch2">
-                            <img src="./img/suv.png" alt="" style="border-radius: 50%
-                            ;">
-                            <h2 id="ko">Suv</h2>
-                        </div>
-                        <div class="imgch3">
-                            <img src="./img/choy.png" alt="">
-                            <h2 id="ko">Choy</h2>
-                        </div>
-                    </div>
-                    <div class="chdom"></div>
-                    <div class="choy3">
-                        <h2>Mijo <span id="mmz">z bo’lish</span></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="contenrr">
-            <div class="logo">
-                <div class="log"></div>
-                <div class="log1">
-                        <h1 id="loo">LOGO</h1>
-                        <h2 id="manzil">Manzil:  Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy. <br>
-                            Mo’ljal:  “ASIA AUTO” avtosalon ichki qismi</h2>
-                           <div class="nam">
-                            <h2 id="nam"><i class="fa-solid fa-phone"></i> +998 99 999 99 99</h2> 
-                            <h2 id="nam"> <i class="fa-solid fa-phone"></i>+998 99 999 99 99</h2>
-                           </div>
-                           <div class="ijti">
-                         <h2> <i class="fab fa-telegram"></i></h2>
-                         <h2> <i class="fab fa-instagram"></i></h2>
-                         <h2><i class="fa-brands fa-facebook"></i></h2>
-
-                           </div>
-                </div>
-            </div>
-        </div>
-        <script src="./app.js"></script>
 </body>
 
 </html>
