@@ -133,6 +133,8 @@ function ok2() {
     b.style.backgroundColor = "#111317"
     document.getElementById("l").style.color = "white"
     b.style.color = "white"
+    document.querySelector(".log1").style.backgroundColor = String("#0D0F14")
+
     document.querySelector(".kchoy").style.backgroundColor = String("rgba(14, 16, 20, 0.9)")
     if (document.getElementById("fro1").style.backgroundColor = String("rgba(14, 16, 20, 0.9)")) {
       document.getElementById("fro2").style.backgroundColor = String("rgba(14, 16, 20, 0.9)")
@@ -275,6 +277,8 @@ function ok1() {
     b.style.backgroundColor = String("#F2F2F2")
     document.getElementById("l").style.color = "black"
     b.style.color = "black"
+    document.querySelector(".log1").style.backgroundColor = String(" rgba(255, 255, 255, 0.9)")
+
     document.querySelector(".kchoy").style.backgroundColor = String("white")
     if (document.getElementById("fro1").style.backgroundColor = String("rgba(255, 255, 255, 0.9)")) {
       document.getElementById("fro2").style.backgroundColor = String("rgba(255, 255, 255, 0.9)")
