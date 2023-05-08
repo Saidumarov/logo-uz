@@ -104,7 +104,8 @@ function bur() {
   document.querySelector(".fxmenyu").style.opacity = ("2")
   document.querySelector(".fxmenyu").style.width = ("100%")
   document.getElementById("fxbut").style.width = ("299px")
-  document.querySelector(".xx").style.transform = "rotate(360deg)";
+  document.querySelector(".xx").style.opacity = ("2")
+
 
 
 }
@@ -120,7 +121,8 @@ function burx() {
   document.querySelector(".fxmenyu").style.opacity = ("-2")
   document.querySelector(".fxmenyu").style.width = ("0%")
   document.getElementById("fxbut").style.width = ("0px")
-  document.querySelector(".xx").style.transform = "rotate(-360deg)";
+
+  document.querySelector(".xx").style.opacity = ("")
 
 
 }
@@ -200,7 +202,6 @@ function ok2() {
     document.querySelector("body").style.backgroundimage = " url('./ac.png')";
     document.querySelector(".oy").style.left = ("57%")
     document.querySelector(".oy").style.backgroundColor = String("blue")
-    document.querySelector(".oy").style.transition = ("0.9s")
     document.querySelector(".oy").style.opacity = ("10")
     document.getElementById("nav").style.backgroundColor = String("rgba(23, 25, 29, 0.7)")
     document.querySelector(".menyu").style.backgroundColor = String(" rgba(17, 19, 23, 0.5)")
@@ -274,7 +275,7 @@ function ok2() {
 
 function ok1() {
   if (document.querySelector(".oy").style.left = ("0%")) {
-    b.style.backgroundColor = String("#F2F2F2")
+    b.style.backgroundColor = "white"
     document.getElementById("l").style.color = "black"
     b.style.color = "black"
     document.querySelector(".log1").style.backgroundColor = String(" rgba(255, 255, 255, 0.9)")
