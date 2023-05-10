@@ -1869,17 +1869,9 @@ span {
     margin: 12px 0 0 7px;
   }
 
-  .burger:hover .bur1 {
-    transform: rotate(-5deg);
-    transform: 1s;
-
-  }
-
-  .burger:hover .bur3 {
-    transform: rotate(5deg);
+ 
 
 
-  }
 
   .burger:hover {
     cursor: pointer;
