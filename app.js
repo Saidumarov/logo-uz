@@ -95,36 +95,23 @@ function m51() {
 
 
 function bur() {
-  document.querySelector(".mnavbar").style.zIndex = ("-5")
-  document.querySelector(".mnavbar").style.opacity = ("-5")
+  document.querySelector(".mnavbar").style.left = "-100%"
   document.querySelector(".burmen").style.zIndex = ("22")
   document.querySelector(".burmen").style.opacity = ("10")
-  document.querySelector(".xfx").style.opacity = ("2")
+  document.querySelector(".xfx").style.left = "0%"
   document.querySelector(".xfx").style.width = ("100%")
-  document.querySelector(".fxmenyu").style.opacity = ("2")
+  document.querySelector(".fxmenyu").style.left = "0%"
   document.querySelector(".fxmenyu").style.width = ("100%")
-  document.getElementById("fxbut").style.width = ("299px")
-  document.querySelector(".xx").style.opacity = ("2")
-
-
-
-}
+ }
 
 
 function burx() {
-  document.querySelector(".mnavbar").style.zIndex = ("5")
-  document.querySelector(".mnavbar").style.opacity = ("5")
-  document.querySelector(".burmen").style.zIndex = ("-22")
-  document.querySelector(".xfx").style.opacity = ("-2")
-  document.querySelector(".xfx").style.width = ("0%")
+  document.querySelector(".mnavbar").style.left = "0%"
+  document.querySelector(".xfx").style.left = "-100%"
+  document.querySelector(".xfx").style.width = ("100%")
   document.querySelector(".burmen").style.width = ("0%")
-  document.querySelector(".fxmenyu").style.opacity = ("-2")
-  document.querySelector(".fxmenyu").style.width = ("0%")
-  document.getElementById("fxbut").style.width = ("0px")
-
-  document.querySelector(".xx").style.opacity = ("")
-
-
+  document.querySelector(".fxmenyu").style.left = "-100%"
+  document.querySelector(".fxmenyu").style.width = ("100%")
 }
 
 
@@ -412,3 +399,32 @@ function ok1() {
 
 
 }
+
+let a = document.querySelector("a")
+
+a.addEventListener("click" , (e) =>{
+e.preventDefault()
+})
+
+let a1 = document.querySelector("#a")
+
+a1.addEventListener("click" , (e) =>{
+e.preventDefault()
+})
+let a2 = document.querySelector("#a1")
+
+a2.addEventListener("click" , (e) =>{
+e.preventDefault()
+})
+
+let a3 = document.querySelector("#a2")
+
+a3.addEventListener("click" , (e) =>{
+e.preventDefault()
+})
+
+let a4 = document.querySelector("#a3")
+
+a4.addEventListener("click" , (e) =>{
+e.preventDefault()
+})

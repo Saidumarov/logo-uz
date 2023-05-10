@@ -103,7 +103,7 @@ p {
   cursor: pointer;
   position: fixed;
   position: relative;
-  
+
 }
 
 
@@ -1622,7 +1622,7 @@ span {
 .log1 {
   width: 100%;
   height: 230px;
-  
+
   margin-top: 200px;
   border-top: 1px solid #6a6666;
   backdrop-filter: blur(1px);
@@ -1833,6 +1833,8 @@ span {
    rgba(139, 70, 70, 0.9); */
     margin: 0 auto;
     z-index: 10;
+    transition: .5s;
+    position: absolute;
   }
 
   .mmom {
@@ -1843,6 +1845,9 @@ span {
 
 
 
+  }
+  a{
+   text-decoration: none; 
   }
 
 
@@ -1863,18 +1868,20 @@ span {
     background: #000000;
     margin: 12px 0 0 7px;
   }
-  .burger:hover .bur1{
+
+  .burger:hover .bur1 {
     transform: rotate(-5deg);
     transform: 1s;
-    
-  }
-  .burger:hover .bur3{
-    transform: rotate(5deg);
-  
-    
+
   }
 
-  .burger:hover{
+  .burger:hover .bur3 {
+    transform: rotate(5deg);
+
+
+  }
+
+  .burger:hover {
     cursor: pointer;
   }
 
@@ -1909,16 +1916,12 @@ span {
   .xx {
     width: 70px;
     height: 50px;
-    /* background-color: #00FFE0; */
-    position: absolute;
-    z-index: 25;
-    right: 10px;
-    ;
     position: fixed;
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0 0;
     transition: 1s;
-    cursor: pointer;
-    opacity: -1;
+  position: absolute;
+  left: 80%;
+ 
   }
 
 
@@ -1949,13 +1952,12 @@ span {
   }
 
   .xfx {
-    width: 0%;
+    width: 100%;
     height: 75px;
-
     background: rgba(13, 14, 15, 0.9);
     transition: .5s;
-    opacity: -2;
     position: fixed;
+    left: -100%;
 
   }
 
@@ -1963,16 +1965,14 @@ span {
   .fxmenyu {
     position: absolute;
     z-index: 22;
-    width: 0%;
+    width: 100%;
     position: fixed;
     background: #1E1E1E;
-
     height: 100%;
     margin-top: 74.5px;
-
-    opacity: -2;
     transition: .5s;
     top: 0;
+    left: -100%;
   }
 
   .fxmenyu h1 {
@@ -1986,13 +1986,12 @@ span {
 
 
   #fxbut {
-    width: 0px;
+    width: 290px;
     height: 80px;
     margin: 150px 0 0 50px;
     border-radius: 141px;
     border: none;
     background: #6911AD;
-    transition: .4s;
   }
 
   #number {
@@ -2432,7 +2431,7 @@ span {
     height: 300px;
     margin: 0;
     margin-left: -8px;
-   
+
   }
 
   .tex1 {
@@ -2513,8 +2512,8 @@ span {
     border-radius: 20px;
     z-index: -2;
     margin-top: -200px;
- box-sizing: border-box;
-margin-left: 15px;
+    box-sizing: border-box;
+    margin-left: 15px;
     background: rgba(255, 255, 255, 0.9);
   }
 
