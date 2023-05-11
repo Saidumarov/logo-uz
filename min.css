@@ -2479,13 +2479,13 @@ span {
 
   .imge {
     margin-top: 50px;
-    /* margin-left: 20px; */
+    margin-left: 20px;
   }
   .imge1 {
-    margin-left: 0px;
+    margin-left: 20px;
   }
   .imge2{
-    margin-left: 0px;
+    margin-left: 20px;
   }
 
 
